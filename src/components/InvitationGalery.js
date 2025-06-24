@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
@@ -7,15 +7,19 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 const images = [
-  { id: 1, src: require("../assets/imagesKita/1.jpeg") },
-  { id: 2, src: require("../assets/imagesKita/2.jpeg") },
-  { id: 3, src: require("../assets/imagesKita/3.jpeg") },
-  { id: 4, src: require("../assets/imagesKita/4.jpeg") },
-  { id: 5, src: require("../assets/imagesKita/5.jpeg") },
-  { id: 6, src: require("../assets/imagesKita/6.jpeg") },
+  { id: 1, src: require("../assets/imagesKita/1.JPG") },
+  { id: 2, src: require("../assets/imagesKita/2.JPG") },
+  { id: 3, src: require("../assets/imagesKita/3.JPG") },
+  { id: 4, src: require("../assets/imagesKita/4.jpg") },
+  { id: 5, src: require("../assets/imagesKita/5.JPG") },
+  { id: 6, src: require("../assets/imagesKita/6.jpg") },
+  { id: 7, src: require("../assets/imagesKita/7.jpg") },
+  { id: 8, src: require("../assets/imagesKita/8.jpg") },
 ];
 
 const InvitationGallery = () => {
+  const [selectedImage, setSelectedImage] = useState(null);
+
   return (
     <div
       className="invitation-gallery"
@@ -57,7 +61,7 @@ const InvitationGallery = () => {
           className="gallery-grid"
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fit, minmax(120px, 1fr))",
             gap: "1rem",
             padding: "1rem",
             marginBottom: "1rem",
@@ -73,7 +77,9 @@ const InvitationGallery = () => {
                 overflow: "hidden",
                 borderRadius: "10px",
                 boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+                cursor: "pointer",
               }}
+              onClick={() => setSelectedImage(image.src)}
             >
               <img
                 src={image.src}
@@ -88,6 +94,7 @@ const InvitationGallery = () => {
           ))}
         </div>
 
+        {/* Swiper Carousel */}
         <motion.div
           className="gallery-swiper"
           initial={{ scale: 0 }}
@@ -101,10 +108,9 @@ const InvitationGallery = () => {
             padding: "2rem",
             margin: "1rem",
             backgroundColor: "#E7D5C5",
-            width: '80%'
+            width: "80%",
           }}
         >
-          {/* Swiper Carousel */}
           <Swiper
             modules={[Pagination, Autoplay]}
             spaceBetween={30}
@@ -134,6 +140,39 @@ const InvitationGallery = () => {
           </Swiper>
         </motion.div>
 
+        {/* Modal Preview */}
+        {selectedImage && (
+          <div
+            onClick={() => setSelectedImage(null)}
+            style={{
+              position: "fixed",
+              top: 0,
+              left: 0,
+              width: "100vw",
+              height: "100vh",
+              backgroundColor: "rgba(0,0,0,0.8)",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              zIndex: 9999,
+              cursor: "zoom-out",
+            }}
+          >
+            <motion.img
+              src={selectedImage}
+              alt="Preview"
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.8, opacity: 0 }}
+              style={{
+                maxWidth: "90%",
+                maxHeight: "90%",
+                borderRadius: "10px",
+                boxShadow: "0 0 20px rgba(255,255,255,0.3)",
+              }}
+            />
+          </div>
+        )}
       </motion.section>
     </div>
   );

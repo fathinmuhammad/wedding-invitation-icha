@@ -10,7 +10,7 @@ import InvitationGalery from "./components/InvitationGalery";
 import InvitationEnd from "./components/InvitationEnd";
 import Navigation from "./components/button/Navigation";
 import PlayMusic from "./components/button/PlayMusic";
-import sound from "../src/assets/music/sound.mp3";
+import sound from "../src/assets/music/CintaTerakhir.MP3";
 
 
 function App() {

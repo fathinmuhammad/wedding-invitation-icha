@@ -239,7 +239,7 @@ const InvitationWeddingDate = () => {
                                         style={{
                                             fontSize: "0.8rem",
                                             fontFamily: "'Poppins', sans-serif",
-                                            color: "#778899",
+                                            color: "#800020",
                                             fontWeight: '500',
                                         }}
                                     >
@@ -259,6 +259,7 @@ const InvitationWeddingDate = () => {
                                 marginBottom:'0.8rem',
                                 marginLeft: '1rem',
                                 marginRight: '1rem', 
+                                color: '#800020'
                             }} 
                         initial={{ opacity: 0, y: 20 }} 
                         animate={{ opacity: 1, y: 0 }} 
@@ -283,12 +284,12 @@ const InvitationWeddingDate = () => {
                                     transition={{ duration: 1 }}>
                                         Akad
                             </motion.h2>
-                            <p style={{ fontSize: '1rem', fontFamily: "'Poppins', sans-serif", marginTop: '0rem', marginBottom:'0rem' }}>Pukul 09.00 WIB - Selesai</p>
+                            <p style={{ fontSize: '1rem', fontFamily: "'Poppins', sans-serif", marginTop: '0rem', marginBottom:'0rem', color: '#800020' }}>Pukul 08.00 WIB - Selesai</p>
                         </div>
     
                         <div className="py-2" data-aos="fade-left" data-aos-duration="1500">
                             <motion.h2 className="font-esthetic m-0 py-2" style={{ fontSize: '2rem', color: '#800020', fontFamily: "'Poppins', sans-serif", marginTop: '0rem', marginBottom:'0rem' }} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>Resepsi</motion.h2>
-                            <p style={{ fontSize: '1rem', fontFamily: "'Poppins', sans-serif", marginTop: '0rem', marginBottom:'1rem' }}>Pukul 10.00 WIB - Selesai</p>
+                            <p style={{ fontSize: '1rem', fontFamily: "'Poppins', sans-serif", marginTop: '0rem', marginBottom:'1rem', color: '#800020' }}>Pukul 11.00 WIB - Selesai</p>
                         </div>
                     </div>
     
@@ -329,6 +330,7 @@ const InvitationWeddingDate = () => {
                                 fontSize: '1rem',
                                 fontFamily: "'Poppins', sans-serif",
                                 textAlign: 'center',
+                                color: '#800020'
                                 }}
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}

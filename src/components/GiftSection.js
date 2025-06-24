@@ -93,47 +93,6 @@ const GiftSection = () => {
               </motion.p>
 
               <motion.div 
-                className="bg-theme-dark rounded-4 shadow p-4 mx-4 mt-2 text-start"
-                data-aos="fade-up" data-aos-duration="2500"
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}
-                transition={{ duration: 0.5 }}
-              >
-                  <img src="https://upload.wikimedia.org/wikipedia/id/thumb/5/55/BNI_logo.svg/1024px-BNI_logo.svg.png" className="img-fluid" style={{ maxWidth: '9vh' }} alt="bni" />
-                  <div className="d-flex justify-content-between align-items-center mt-2">
-                      <p className="m-0 p-0" style={{ fontSize: '0.95rem', fontFamily: "'Poppins', sans-serif" }}>1826-2928-16</p>
-                      <button style={{
-                        background: '#800020',
-                        color: 'white',
-                        padding: '0.8rem 2rem',
-                        border: 'none',
-                        borderRadius: '50px',
-                        fontSize: '1.1rem',
-                        cursor: 'pointer',
-                        transition: 'all 0.3s ease',
-                        boxShadow: '0 3px 10px rgba(135,206,235,0.2)'
-                      }}
-                      onClick={() => {
-                        navigator.clipboard.writeText("1826292816");
-
-                        Swal.fire({
-                          title: "Berhasil!",
-                          text: "Nomor rekening telah disalin ke clipboard.",
-                          icon: "success",
-                          confirmButtonText: "OK",
-                          timer: 2000,
-                          timerProgressBar: true,
-                        });
-                      }}
-                      > 
-                        <FontAwesomeIcon icon={faCopy} className="me-2" /> Salin
-                      </button>
-                  </div>
-
-                  <p className="mt-2 mb-0 p-0" style={{ fontSize: '0.95rem', fontFamily: "'Poppins', sans-serif" }}>A/N Anisa Hafridha Putri</p>
-              </motion.div>
-
-              <motion.div 
                 className="bg-theme-dark rounded-4 shadow p-4 mx-4 mt-2 mb-4 text-start"
                 data-aos="fade-up" data-aos-duration="2500"
                 initial={{ scale: 0 }}
@@ -147,7 +106,7 @@ const GiftSection = () => {
                   alt="bca" 
                 />
                 <div className="d-flex justify-content-between align-items-center mt-2">
-                  <p className="m-0 p-0" style={{ fontSize: '0.95rem', fontFamily: "'Poppins', sans-serif" }}>7295-0795-50</p>
+                  <p className="m-0 p-0" style={{ fontSize: '0.95rem', fontFamily: "'Poppins', sans-serif" }}>7615-3157-96</p>
                   <button style={{
                     background: '#800020',
                     color: 'white',
@@ -160,7 +119,7 @@ const GiftSection = () => {
                     boxShadow: '0 3px 10px rgba(135,206,235,0.2)'
                   }}
                   onClick={() => {
-                    navigator.clipboard.writeText("7295079550");
+                    navigator.clipboard.writeText("7615315796");
 
                     Swal.fire({
                       title: "Berhasil!",
@@ -176,7 +135,7 @@ const GiftSection = () => {
                   </button>
                 </div>
 
-                <p className="mt-2 mb-0 p-0" style={{ fontSize: '0.95rem', fontFamily: "'Poppins', sans-serif" }}>A/N Fathin Muhammad Fadhlullah</p>
+                <p className="mt-2 mb-0 p-0" style={{ fontSize: '0.95rem', fontFamily: "'Poppins', sans-serif" }}>A/N Denny Aritha Trio Saputra Barus</p>
               </motion.div>
 
               <motion.div 
@@ -188,7 +147,7 @@ const GiftSection = () => {
               >
                   <img src={bjb} className="img-fluid" style={{ maxWidth: '9vh' }} alt="bjb" />
                   <div className="d-flex justify-content-between align-items-center mt-2">
-                      <p className="m-0 p-0" style={{ fontSize: '0.95rem', fontFamily: "'Poppins', sans-serif" }}>0110-6587-5310-0</p>
+                      <p className="m-0 p-0" style={{ fontSize: '0.95rem', fontFamily: "'Poppins', sans-serif" }}>0148-9648-9010-1</p>
                       <button style={{
                         background: '#800020',
                         color: 'white',
@@ -201,7 +160,7 @@ const GiftSection = () => {
                         boxShadow: '0 3px 10px rgba(135,206,235,0.2)'
                       }}
                       onClick={() => {
-                        navigator.clipboard.writeText("0110658753100");
+                        navigator.clipboard.writeText("0148964890101");
 
                         Swal.fire({
                           title: "Berhasil!",
@@ -217,7 +176,7 @@ const GiftSection = () => {
                       </button>
                   </div>
 
-                  <p className="mt-2 mb-0 p-0" style={{ fontSize: '0.95rem', fontFamily: "'Poppins', sans-serif" }}>A/N Anisa Hafridha Putri</p>
+                  <p className="mt-2 mb-0 p-0" style={{ fontSize: '0.95rem', fontFamily: "'Poppins', sans-serif" }}>A/N Chairunnisa</p>
               </motion.div>
           </div>
       </motion.section>

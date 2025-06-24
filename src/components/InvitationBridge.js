@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import cowok from "../assets/images/cowok.png";
-import cewek from "../assets/images/cewek.png";
+import cowok from "../assets/images/cowo.png";
+import cewek from "../assets/images/cewe.png";
 
 const InvitationBridge = () => {
   return (
@@ -112,7 +112,7 @@ const InvitationBridge = () => {
           className="pb-4 m-0"
           style={{ 
             fontSize: "0.7rem",
-            color: '#778899',
+            color: '#470113',
             fontFamily: "'Poppins', sans-serif",
             fontWeight: 'bold',
             textShadow: '0 1px 2px rgba(0,0,0,0.1)',
@@ -152,12 +152,13 @@ const InvitationBridge = () => {
             <motion.h2
               className="font-esthetic m-0"
               style={{ 
-                fontSize: "1.5rem",
+                fontSize: "3rem",
                 color: '#800020',
                 fontFamily: "'Tangerine', serif",
                 textShadow: '0 1px 2px rgba(0,0,0,0.1)',
                 textAlign: 'center',
-                marginBottom: '0rem'
+                marginBottom: '0rem',
+                marginTop: '0rem'
               }}
             >
               Chairunnisa
@@ -166,7 +167,7 @@ const InvitationBridge = () => {
               className="mt-3 mb-1"
               style={{ 
                 fontSize: "1rem",
-                color: '#5F9EA0',
+                color: '#470113',
                 fontFamily: "'Poppins', sans-serif",
                 textShadow: '0 1px 2px rgba(0,0,0,0.1)',
                 textAlign: 'center',
@@ -175,7 +176,7 @@ const InvitationBridge = () => {
                 marginBottom: '0rem'
               }}
             >
-              Putri Kedua
+              Putri Ke-2 Dari 2 Bersaudara
             </motion.p>
             <motion.p 
               className="mb-0"
@@ -187,7 +188,7 @@ const InvitationBridge = () => {
                 fontSize: '0.6rem',
               }}
             >
-              Nama Orang Tua Istri
+              Putri Dari Bpk (Alm) Yulizon R Sikumbang & Ibu Dra. H Suneti Khaidir
             </motion.p>
 
             <motion.h2
@@ -228,20 +229,21 @@ const InvitationBridge = () => {
             <motion.h2
               className="m-0"
               style={{ 
-                fontSize: "1.5rem",
+                fontSize: "3rem",
                 color: '#800020',
                 fontFamily: "'Tangerine', serif",
                 textShadow: '0 1px 2px rgba(0,0,0,0.1)',
                 textAlign: 'center',
-                marginBottom: '0rem'
+                marginBottom: '0rem',
+                marginTop: '0rem'
               }}
             >
-              Denny Arihta Trio Saputra Barus
+              Denny Aritha Trio Saputra Barus
             </motion.h2>
             <motion.p
               style={{ 
                 fontSize: "1rem",
-                color: '#5F9EA0',
+                color: '#470113',
                 fontFamily: "'Poppins', sans-serif",
                 textShadow: '0 1px 2px rgba(0,0,0,0.1)',
                 textAlign: 'center',
@@ -250,7 +252,7 @@ const InvitationBridge = () => {
                 marginBottom: '0rem'
               }}
             >
-              Putra Kedua
+              Putra Ke-3 Dari 3 Bersaudara
             </motion.p>
             <motion.p 
               style={{
@@ -262,7 +264,7 @@ const InvitationBridge = () => {
                 fontSize: '0.6rem',
               }}
             >
-              Nama Orang Tua Suami
+              Putra Dari Bpk Effendy O Barus & Ibu Nurkiftiyah
             </motion.p>
           </motion.div>
     </motion.section>
