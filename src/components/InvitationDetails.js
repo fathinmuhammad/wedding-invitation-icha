@@ -83,11 +83,11 @@ const InvitationDetails = () => {
         <motion.h2 className="invitation-couple" whileHover={{ scale: 1.05 }}>
         Chairunnisa<br/>&amp;<br/>Denny Arihta Trio Saputra Barus
         </motion.h2>
-        <motion.p className="wedding-date">
+        <motion.p style={{ fontSize: '1rem', color: '#F4EDE8', fontFamily: "'Poppins', sans-serif" }}>
           Minggu, 06 Juli 2025
         </motion.p>
         <a
-          href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Akad%20%26%20Resepsi%20Pernikahan%20Icha%20%26%20Denny&dates=20250706T010000Z/20250706T150000Z&details=Dengan%20segala%20kerendahan%20hati%2C%20kami%20mengundang%20Anda%20untuk%20menghadiri%20acara%20pernikahan%20kami.&location=JL%20Ciputat%20Raya%2C%20Pasar%20Jumat%201%209%20Pondok%20Pinang%2C%20Kecamatan%20Kebayoran%20Lama%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2C%20RT.10%2FRW.9%2C%20Pd.%20Pinang%2C%20Kec.%20Kby.%20Lama%2C%20Kota%20Jakarta%20Selatan&sf=true&output=xml"
+          href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Akad%20%26%20Resepsi%20Pernikahan%20Icha%20%26%20Denny&dates=20250706T010000Z/20250706T060000Z&details=Dengan%20segala%20kerendahan%20hati%2C%20kami%20mengundang%20Anda%20untuk%20menghadiri%20acara%20pernikahan%20kami.&location=JL%20Ciputat%20Raya%2C%20Pasar%20Jumat%201%209%20Pondok%20Pinang%2C%20Kecamatan%20Kebayoran%20Lama%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2C%20RT.10%2FRW.9%2C%20Pd.%20Pinang%2C%20Kec.%20Kby.%20Lama%2C%20Kota%20Jakarta%20Selatan&sf=true&output=xml"
           target="_blank"
           rel="noreferrer"
           className="save-date-btn"

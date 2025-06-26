@@ -289,7 +289,7 @@ const InvitationWeddingDate = () => {
     
                         <div className="py-2" data-aos="fade-left" data-aos-duration="1500">
                             <motion.h2 className="font-esthetic m-0 py-2" style={{ fontSize: '2rem', color: '#800020', fontFamily: "'Poppins', sans-serif", marginTop: '0rem', marginBottom:'0rem' }} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>Resepsi</motion.h2>
-                            <p style={{ fontSize: '1rem', fontFamily: "'Poppins', sans-serif", marginTop: '0rem', marginBottom:'1rem', color: '#800020' }}>Pukul 11.00 WIB - Selesai</p>
+                            <p style={{ fontSize: '1rem', fontFamily: "'Poppins', sans-serif", marginTop: '0rem', marginBottom:'1rem', color: '#800020' }}>Pukul 11.00 WIB - 13.00 WIB</p>
                         </div>
                     </div>
     
@@ -336,7 +336,7 @@ const InvitationWeddingDate = () => {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 1 }}
                             whileHover={{ scale: 1.05 }}>
-                                    JL Ciputat Raya, Pasar Jumat 1 9 Pondok Pinang Kecamatan Kebayoran Lama Kota Jakarta Selatan Daerah Khusus Ibukota Jakarta, RT.10/RW.9, Pd. Pinang, Kec. Kby. Lama, Kota Jakarta Selatan
+                                    Gedung lemdiklat / aula selapa polri, JL Ciputat Raya, Pasar Jumat 1 9 Pondok Pinang Kecamatan Kebayoran Lama, RT.10/RW.9, Pd. Pinang, Kec. Kby. Lama, Kota Jakarta Selatan
                         </motion.small>
                     </div>
                 </div>
